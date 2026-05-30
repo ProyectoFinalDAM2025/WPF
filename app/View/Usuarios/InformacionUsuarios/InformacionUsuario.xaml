@@ -1,0 +1,114 @@
+<Window x:Class="app.View.Usuarios.InformacionUsuarios.InformacionUsuario"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:app.View.Usuarios.InformacionUsuarios"
+        mc:Ignorable="d"
+        Title="InformacionUsuario" Height="600" Width="1000"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="Transparent"
+        AllowsTransparency="True"
+        WindowStartupLocation="CenterScreen"
+        Loaded="Window_Loaded">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../../../Dictionary1.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid>
+        <Border CornerRadius="20" Background="#CC000000" BorderThickness="5">
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                    <GradientStop Color="#616161" Offset="1"/>
+                    <GradientStop Color="#9CA3AF" Offset="0.75"/>
+                    <GradientStop Color="#D9D9D9" Offset="0"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+
+            <Border Height="400" Width="800" Background="#D9D9D9" CornerRadius="20">
+                <Grid Background="#FFD9D9D9">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition Height="5*"/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Ellipse x:Name="imgPerfil" Height="55" Width="55" Stroke="White" StrokeThickness="2" Margin="20,0,10,0">
+                            <Ellipse.Fill>
+                                <ImageBrush ImageSource="/View/Usuarios/InformacionUsuarios/58ffe72b95350c2b3440659d5f9631ce.png" Stretch="UniformToFill"/>
+                            </Ellipse.Fill>
+                        </Ellipse>
+                        <Label Content="Información administrador" Width="580" Height="60" Foreground="#9CA3AF" FontWeight="Bold" FontSize="38" Margin="15,0,0,5"/>
+                        <Button x:Name="btnCerrar" Margin="55,0,0,0" Background="Transparent" BorderBrush="Transparent" Width="40" Height="40" Click="btnCerrar_Click">
+                            <Image Source="/View/Usuarios/RegistroUsuarios/Close.png"/>
+                        </Button>
+                    </StackPanel>
+
+                    <Grid Grid.Row="1" Margin="35,35,35,25">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="220"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel HorizontalAlignment="Center">
+                            <Ellipse Width="150" Height="150" Stroke="White" StrokeThickness="2">
+                                <Ellipse.Fill>
+                                    <ImageBrush x:Name="imgPerfilGrande" ImageSource="/View/Usuarios/InformacionUsuarios/58ffe72b95350c2b3440659d5f9631ce.png" Stretch="UniformToFill"/>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                            <TextBlock x:Name="txtNombreCompleto" Text="Administrador" HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold" FontSize="18" Margin="0,16,0,0" TextWrapping="Wrap" Width="200"/>
+                            <TextBlock x:Name="txtRol" Text="Administrador" HorizontalAlignment="Center" FontSize="14" Margin="0,8,0,0" Foreground="#9CA3AF"/>
+                        </StackPanel>
+
+                        <Grid Grid.Column="1" Margin="25,0,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+
+                            <StackPanel>
+                                <Label Content="Nombre" FontSize="14" Margin="0,0,0,2"/>
+                                <TextBox x:Name="txtNombre" FontSize="16" Height="35" IsReadOnly="True" Background="White" BorderBrush="#9CA3AF"/>
+                            </StackPanel>
+
+                            <StackPanel Grid.Column="1" Margin="20,0,0,0">
+                                <Label Content="Apellidos" FontSize="14" Margin="0,0,0,2"/>
+                                <TextBox x:Name="txtApellido" FontSize="16" Height="35" IsReadOnly="True" Background="White" BorderBrush="#9CA3AF"/>
+                            </StackPanel>
+
+                            <StackPanel Grid.Row="1">
+                                <Label Content="Email" FontSize="14" Margin="0,0,0,2"/>
+                                <TextBox x:Name="txtEmail" FontSize="16" Height="35" IsReadOnly="True" Background="White" BorderBrush="#9CA3AF"/>
+                            </StackPanel>
+
+                            <StackPanel Grid.Row="1" Grid.Column="1" Margin="20,0,0,0">
+                                <Label Content="Estado" FontSize="14" Margin="0,0,0,2"/>
+                                <TextBox x:Name="txtEstado" FontSize="16" Height="35" IsReadOnly="True" Background="White" BorderBrush="#9CA3AF"/>
+                            </StackPanel>
+
+                            <StackPanel Grid.Row="2">
+                                <Label Content="ID Administrador" FontSize="14" Margin="0,0,0,2"/>
+                                <TextBox x:Name="txtIdAdministrador" FontSize="16" Height="35" IsReadOnly="True" Background="White" BorderBrush="#9CA3AF"/>
+                            </StackPanel>
+
+                            <StackPanel Grid.Row="2" Grid.Column="1" Margin="20,0,0,0">
+                                <Label Content="ID Usuario" FontSize="14" Margin="0,0,0,2"/>
+                                <TextBox x:Name="txtIdUsuario" FontSize="16" Height="35" IsReadOnly="True" Background="White" BorderBrush="#9CA3AF"/>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </Border>
+        </Border>
+    </Grid>
+</Window>

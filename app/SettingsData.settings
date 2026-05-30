@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="app" GeneratedClassName="SettingsData">
+  <Profiles />
+  <Settings>
+    <Setting Name="_404" Type="System.String" Scope="User">
+      <Value Profile="(Default)">404 Error: La ruta no existe.</Value>
+    </Setting>
+    <Setting Name="_200" Type="System.String" Scope="User">
+      <Value Profile="(Default)">200 OK: Petición Exitosa</Value>
+    </Setting>
+    <Setting Name="_419" Type="System.String" Scope="User">
+      <Value Profile="(Default)">419 Error: Invalid Token.</Value>
+    </Setting>
+    <Setting Name="_500" Type="System.String" Scope="User">
+      <Value Profile="(Default)">500 Internal Server Error:  El servidor recibe la solicitud pero falla al procesarla.</Value>
+    </Setting>
+    <Setting Name="_503" Type="System.String" Scope="User">
+      <Value Profile="(Default)">503 Service Unavailable: Si el servidor está apagado o sobrecargado.</Value>
+    </Setting>
+    <Setting Name="_504" Type="System.String" Scope="User">
+      <Value Profile="(Default)">504 Gateway Timeout: Si la conexión con el backend está bloqueada o demora demasiado.</Value>
+    </Setting>
+    <Setting Name="token" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="appToken" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="idPerfil" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="rol" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="nombre" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
