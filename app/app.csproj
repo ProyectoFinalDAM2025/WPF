@@ -153,6 +153,7 @@
     </ApplicationDefinition>
     <Compile Include="Models\ApiRouteUsuario\ApiRouteUsuarios.cs" />
     <Compile Include="Models\IUsuariosRepository\IUsuarioRepository.cs" />
+    <Compile Include="Models\Reportes\Reporte.cs" />
     <Compile Include="Models\Usuarios\Perfiles\Administrador.cs" />
     <Compile Include="Models\Usuarios\UsuarioBase.cs" />
     <Compile Include="SettingsData.Designer.cs">
@@ -163,12 +164,25 @@
     <Compile Include="UserSession.cs" />
     <Compile Include="ViewModel\Repositories\RepositoryBase.cs" />
     <Compile Include="ViewModel\Repositories\RepositoryUsuarios\RepositoryUsuario.cs" />
+    <Compile Include="ViewModel\Reportes\ReportesViewModel.cs" />
     <Compile Include="ViewModel\Usuarios\RegistroUsuarios\RegistroPerfilViewModel.cs" />
     <Compile Include="ViewModel\Usuarios\UsuarioViewModel.cs" />
     <Compile Include="ViewModel\ViewModelBase.cs" />
     <Compile Include="ViewModel\ViewModelCommand.cs" />
     <Compile Include="View\Home\Inicio.xaml.cs">
       <DependentUpon>Inicio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Reportes\ReportesOfertas\ReportesOfertas.xaml.cs">
+      <DependentUpon>ReportesOfertas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Reportes\ReportesOfertas\ReporteOfertaDetalle.xaml.cs">
+      <DependentUpon>ReporteOfertaDetalle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Reportes\ReportesPublicaciones\ReportesPublicaciones.xaml.cs">
+      <DependentUpon>ReportesPublicaciones.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Reportes\ReportesPublicaciones\ReportePublicacionDetalle.xaml.cs">
+      <DependentUpon>ReportePublicacionDetalle.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Usuarios\CambiarContraseña\CambiarContraseña.xaml.cs">
       <DependentUpon>CambiarContraseña.xaml</DependentUpon>
@@ -220,6 +234,22 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="View\Home\Inicio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Reportes\ReportesOfertas\ReportesOfertas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Reportes\ReportesOfertas\ReporteOfertaDetalle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Reportes\ReportesPublicaciones\ReportesPublicaciones.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Reportes\ReportesPublicaciones\ReportePublicacionDetalle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -3,63 +3,71 @@
   "WorkspaceRootPath": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|c:\\users\\srleo\\documents\\github\\proyectofinaldam2025\\wpf\\app\\viewmodel\\usuarios\\usuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\viewmodel\\usuarios\\usuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|c:\\users\\srleo\\documents\\github\\proyectofinaldam2025\\wpf\\app\\viewmodel\\reportes\\reportesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\viewmodel\\reportes\\reportesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|c:\\users\\srleo\\documents\\github\\proyectofinaldam2025\\wpf\\app\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\models\\reportes\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\models\\reportes\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|c:\\users\\srleo\\documents\\github\\proyectofinaldam2025\\wpf\\app\\viewmodel\\viewmodelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\viewmodel\\viewmodelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|c:\\users\\srleo\\documents\\github\\proyectofinaldam2025\\wpf\\app\\viewmodel\\repositories\\repositoryusuarios\\repositoryusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\viewmodel\\repositories\\repositoryusuarios\\repositoryusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|c:\\users\\srleo\\documents\\github\\proyectofinaldam2025\\wpf\\app\\viewmodel\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\viewmodel\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|c:\\users\\srleo\\documents\\github\\proyectofinaldam2025\\wpf\\app\\models\\iusuariosrepository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\models\\iusuariosrepository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|c:\\users\\srleo\\documents\\github\\proyectofinaldam2025\\wpf\\app\\models\\apirouteusuario\\apirouteusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\models\\apirouteusuario\\apirouteusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\models\\apirouteusuario\\apirouteusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|c:\\users\\srleo\\documents\\github\\proyectofinaldam2025\\wpf\\app\\models\\usuarios\\usuariobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\viewmodel\\usuarios\\usuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\viewmodel\\usuarios\\usuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\viewmodel\\viewmodelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\viewmodel\\viewmodelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\viewmodel\\repositories\\repositoryusuarios\\repositoryusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\viewmodel\\repositories\\repositoryusuarios\\repositoryusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\viewmodel\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\viewmodel\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\models\\iusuariosrepository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\models\\iusuariosrepository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\models\\usuarios\\usuariobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\models\\usuarios\\usuariobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|c:\\users\\srleo\\documents\\github\\proyectofinaldam2025\\wpf\\app\\models\\usuarios\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\models\\usuarios\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\models\\usuarios\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|c:\\users\\srleo\\documents\\github\\proyectofinaldam2025\\wpf\\app\\view\\usuarios\\recordarcontrase\u00F1as\\recordarcontrase\u00F1a.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\view\\usuarios\\recordarcontrase\u00F1as\\recordarcontrase\u00F1a.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\view\\usuarios\\recordarcontrase\u00F1as\\recordarcontrase\u00F1a.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|c:\\users\\srleo\\documents\\github\\proyectofinaldam2025\\wpf\\app\\view\\usuarios\\iniciodesesion\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\view\\usuarios\\iniciodesesion\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\view\\usuarios\\iniciodesesion\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|c:\\users\\srleo\\documents\\github\\proyectofinaldam2025\\wpf\\app\\view\\home\\inicio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\view\\home\\inicio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\view\\home\\inicio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|c:\\users\\srleo\\documents\\github\\proyectofinaldam2025\\wpf\\app\\view\\usuarios\\mainusuarios\\mainusuario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\view\\usuarios\\mainusuarios\\mainusuario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\view\\usuarios\\mainusuarios\\mainusuario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|c:\\users\\srleo\\documents\\github\\proyectofinaldam2025\\wpf\\app\\view\\usuarios\\editarusuarios\\editarusuario.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\view\\usuarios\\editarusuarios\\editarusuario.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\view\\usuarios\\editarusuarios\\editarusuario.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|c:\\users\\srleo\\documents\\github\\proyectofinaldam2025\\wpf\\app\\view\\usuarios\\mainusuarios\\mainusuario.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\view\\usuarios\\mainusuarios\\mainusuario.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\view\\usuarios\\mainusuarios\\mainusuario.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -75,6 +83,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ReportesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\Reportes\\ReportesViewModel.cs",
+              "RelativeDocumentMoniker": "app\\ViewModel\\Reportes\\ReportesViewModel.cs",
+              "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\Reportes\\ReportesViewModel.cs",
+              "RelativeToolTip": "app\\ViewModel\\Reportes\\ReportesViewModel.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAM8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T17:48:55.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reporte.cs",
+              "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\Reportes\\Reporte.cs",
+              "RelativeDocumentMoniker": "app\\Models\\Reportes\\Reporte.cs",
+              "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\Reportes\\Reporte.cs",
+              "RelativeToolTip": "app\\Models\\Reportes\\Reporte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T17:35:31.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UsuarioViewModel.cs",
               "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\Usuarios\\UsuarioViewModel.cs",
               "RelativeDocumentMoniker": "app\\ViewModel\\Usuarios\\UsuarioViewModel.cs",
@@ -82,25 +115,11 @@
               "RelativeToolTip": "app\\ViewModel\\Usuarios\\UsuarioViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T15:06:51.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-30T15:06:51.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ViewModelBase.cs",
-              "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\ViewModelBase.cs",
-              "RelativeDocumentMoniker": "app\\ViewModel\\ViewModelBase.cs",
-              "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\ViewModelBase.cs",
-              "RelativeToolTip": "app\\ViewModel\\ViewModelBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T15:06:44.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ViewModelCommand.cs",
               "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\ViewModelCommand.cs",
               "RelativeDocumentMoniker": "app\\ViewModel\\ViewModelCommand.cs",
@@ -108,12 +127,11 @@
               "RelativeToolTip": "app\\ViewModel\\ViewModelCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T15:06:36.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-30T15:06:36.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "RepositoryUsuario.cs",
               "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\Repositories\\RepositoryUsuarios\\RepositoryUsuario.cs",
               "RelativeDocumentMoniker": "app\\ViewModel\\Repositories\\RepositoryUsuarios\\RepositoryUsuario.cs",
@@ -121,12 +139,11 @@
               "RelativeToolTip": "app\\ViewModel\\Repositories\\RepositoryUsuarios\\RepositoryUsuario.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAjwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T15:06:01.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-30T15:06:01.568Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "RepositoryBase.cs",
               "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\Repositories\\RepositoryBase.cs",
               "RelativeDocumentMoniker": "app\\ViewModel\\Repositories\\RepositoryBase.cs",
@@ -134,12 +151,11 @@
               "RelativeToolTip": "app\\ViewModel\\Repositories\\RepositoryBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T15:05:57.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-30T15:05:57.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "UsuarioBase.cs",
               "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\Usuarios\\UsuarioBase.cs",
               "RelativeDocumentMoniker": "app\\Models\\Usuarios\\UsuarioBase.cs",
@@ -147,12 +163,11 @@
               "RelativeToolTip": "app\\Models\\Usuarios\\UsuarioBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T15:00:44.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-30T15:00:44.096Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\Usuarios\\Usuario.cs",
               "RelativeDocumentMoniker": "app\\Models\\Usuarios\\Usuario.cs",
@@ -160,25 +175,11 @@
               "RelativeToolTip": "app\\Models\\Usuarios\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T15:00:42.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-30T15:00:42.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\IUsuariosRepository\\IUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "app\\Models\\IUsuariosRepository\\IUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\IUsuariosRepository\\IUsuarioRepository.cs",
-              "RelativeToolTip": "app\\Models\\IUsuariosRepository\\IUsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T15:00:16.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "ApiRouteUsuarios.cs",
               "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\ApiRouteUsuario\\ApiRouteUsuarios.cs",
               "RelativeDocumentMoniker": "app\\Models\\ApiRouteUsuario\\ApiRouteUsuarios.cs",
@@ -186,48 +187,68 @@
               "RelativeToolTip": "app\\Models\\ApiRouteUsuario\\ApiRouteUsuarios.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T14:59:54.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-30T14:59:54.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "app\\ViewModel\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\ViewModelBase.cs",
+              "RelativeToolTip": "app\\ViewModel\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T15:06:44.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\IUsuariosRepository\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "app\\Models\\IUsuariosRepository\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\IUsuariosRepository\\IUsuarioRepository.cs",
+              "RelativeToolTip": "app\\Models\\IUsuariosRepository\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T15:00:16.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "RecordarContrase\u00F1a.xaml",
               "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\View\\Usuarios\\RecordarContrase\u00F1as\\RecordarContrase\u00F1a.xaml",
               "RelativeDocumentMoniker": "app\\View\\Usuarios\\RecordarContrase\u00F1as\\RecordarContrase\u00F1a.xaml",
               "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\View\\Usuarios\\RecordarContrase\u00F1as\\RecordarContrase\u00F1a.xaml",
               "RelativeToolTip": "app\\View\\Usuarios\\RecordarContrase\u00F1as\\RecordarContrase\u00F1a.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-30T14:22:47.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-30T14:22:47.128Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "LogIn.xaml",
               "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\View\\Usuarios\\InicioDeSesion\\LogIn.xaml",
               "RelativeDocumentMoniker": "app\\View\\Usuarios\\InicioDeSesion\\LogIn.xaml",
               "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\View\\Usuarios\\InicioDeSesion\\LogIn.xaml",
               "RelativeToolTip": "app\\View\\Usuarios\\InicioDeSesion\\LogIn.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-30T14:11:28.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-30T14:11:28.871Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Inicio.xaml",
               "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\View\\Home\\Inicio.xaml",
               "RelativeDocumentMoniker": "app\\View\\Home\\Inicio.xaml",
               "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\View\\Home\\Inicio.xaml",
               "RelativeToolTip": "app\\View\\Home\\Inicio.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-30T13:03:24.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-30T13:03:24.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "EditarUsuario.xaml.cs",
               "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\View\\Usuarios\\EditarUsuarios\\EditarUsuario.xaml.cs",
               "RelativeDocumentMoniker": "app\\View\\Usuarios\\EditarUsuarios\\EditarUsuario.xaml.cs",
@@ -235,12 +256,11 @@
               "RelativeToolTip": "app\\View\\Usuarios\\EditarUsuarios\\EditarUsuario.xaml.cs",
               "ViewState": "AgIAANEAAAAAAAAAAADwv+UAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T12:45:56.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-30T12:45:56.434Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "MainUsuario.xaml.cs",
               "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\View\\Usuarios\\MainUsuarios\\MainUsuario.xaml.cs",
               "RelativeDocumentMoniker": "app\\View\\Usuarios\\MainUsuarios\\MainUsuario.xaml.cs",
@@ -248,20 +268,18 @@
               "RelativeToolTip": "app\\View\\Usuarios\\MainUsuarios\\MainUsuario.xaml.cs",
               "ViewState": "AgIAAHoAAAAAAAAAAAAIwIsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T12:17:31.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-30T12:17:31.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "MainUsuario.xaml",
               "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\View\\Usuarios\\MainUsuarios\\MainUsuario.xaml",
               "RelativeDocumentMoniker": "app\\View\\Usuarios\\MainUsuarios\\MainUsuario.xaml",
               "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\View\\Usuarios\\MainUsuarios\\MainUsuario.xaml",
               "RelativeToolTip": "app\\View\\Usuarios\\MainUsuarios\\MainUsuario.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-30T11:56:20.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-30T11:56:20.854Z"
             }
           ]
         }

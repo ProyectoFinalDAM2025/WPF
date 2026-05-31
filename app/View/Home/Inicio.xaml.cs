@@ -15,6 +15,8 @@ using app.View.Usuarios.InicioDeSesion;
 using app.View.Usuarios.MainUsuarios;
 using app.ViewModel.Usuarios;
 using IntermodularWPF;
+using app.View.Reportes.ReportesOfertas;
+using app.View.Reportes.ReportesPublicaciones;
 
 namespace app.View.Home
 {
@@ -45,6 +47,20 @@ namespace app.View.Home
         {
             MainUsuario mainUsuario = new MainUsuario();
             mainUsuario.Show();
+            this.Close();
+        }
+
+        private void btnReportesOfertas_Click(object sender, RoutedEventArgs e)
+        {
+            ReportesOfertas reportesOfertas = new ReportesOfertas();
+            reportesOfertas.Show();
+            this.Close();
+        }
+
+        private void btnReportesPublicaciones_Click(object sender, RoutedEventArgs e)
+        {
+            ReportesPublicaciones reportesPublicaciones = new ReportesPublicaciones();
+            reportesPublicaciones.Show();
             this.Close();
         }
 

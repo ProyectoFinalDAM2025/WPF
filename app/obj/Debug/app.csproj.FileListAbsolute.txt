@@ -77,3 +77,11 @@ C:\Users\srleo\Documents\GitHub\ProyectoFinalDAM2025\WPF\app\obj\Debug\app.pdb
 C:\Users\srleo\Documents\GitHub\ProyectoFinalDAM2025\WPF\tmp_build\app.exe.config
 C:\Users\srleo\Documents\GitHub\ProyectoFinalDAM2025\WPF\tmp_build\app.exe
 C:\Users\srleo\Documents\GitHub\ProyectoFinalDAM2025\WPF\tmp_build\app.pdb
+C:\Users\srleo\Documents\GitHub\ProyectoFinalDAM2025\WPF\app\obj\Debug\View\Reportes\ReportesOfertas\ReportesOfertas.baml
+C:\Users\srleo\Documents\GitHub\ProyectoFinalDAM2025\WPF\app\obj\Debug\View\Reportes\ReportesPublicaciones\ReportesPublicaciones.baml
+C:\Users\srleo\Documents\GitHub\ProyectoFinalDAM2025\WPF\app\obj\Debug\View\Reportes\ReportesOfertas\ReportesOfertas.g.cs
+C:\Users\srleo\Documents\GitHub\ProyectoFinalDAM2025\WPF\app\obj\Debug\View\Reportes\ReportesPublicaciones\ReportesPublicaciones.g.cs
+C:\Users\srleo\Documents\GitHub\ProyectoFinalDAM2025\WPF\app\obj\Debug\View\Reportes\ReportesOfertas\ReporteOfertaDetalle.baml
+C:\Users\srleo\Documents\GitHub\ProyectoFinalDAM2025\WPF\app\obj\Debug\View\Reportes\ReportesOfertas\ReporteOfertaDetalle.g.cs
+C:\Users\srleo\Documents\GitHub\ProyectoFinalDAM2025\WPF\app\obj\Debug\View\Reportes\ReportesPublicaciones\ReportePublicacionDetalle.baml
+C:\Users\srleo\Documents\GitHub\ProyectoFinalDAM2025\WPF\app\obj\Debug\View\Reportes\ReportesPublicaciones\ReportePublicacionDetalle.g.cs

@@ -31,5 +31,12 @@ namespace app.Models.ApiRouteUsuario
             public static readonly string RecuperarPassword = $"{BaseUrl}/recover";
             public static readonly string CambiarPassword = $"{BaseUrl}/change-password";
         }
+
+        public static class Reporte
+        {
+            public static readonly string GetAll = $"{BaseUrl}/reportes";
+            public static readonly string Eliminar = $"{BaseUrl}/reportes";
+            public static readonly string Moderar = $"{BaseUrl}/reportes";
+        }
     }
 }
