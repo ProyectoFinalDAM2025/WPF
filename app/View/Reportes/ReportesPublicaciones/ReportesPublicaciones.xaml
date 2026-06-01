@@ -48,6 +48,7 @@
                         <Button Content="Admins" Style="{StaticResource BarSide}" Click="Admins_Click"/>
                         <Button Content="Ofertas" Style="{StaticResource BarSide}" Click="Ofertas_Click"/>
                         <Button Content="Publicaciones" Width="150" Style="{StaticResource BarSide}"/>
+                        <Button Content="Perfiles" Width="120" Style="{StaticResource BarSide}" Click="Perfiles_Click"/>
                         <StackPanel VerticalAlignment="Center" Margin="20,0">
                             <TextBlock x:Name="txtUsuarioSession" HorizontalAlignment="Center" Text="Username" Foreground="#9CA3AF" FontSize="18"/>
                             <TextBlock x:Name="txtUsuarioRol" HorizontalAlignment="Center" FontSize="10" Text="Administrador" Foreground="#9CA3AF"/>

@@ -1,10 +1,10 @@
-<Window x:Class="app.View.Reportes.ReportesOfertas.ReportesOfertas"
+<Window x:Class="app.View.Reportes.ReportesPerfiles.ReportesPerfiles"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="ReportesOfertas" Height="600" Width="1000"
+        Title="ReportesPerfiles" Height="600" Width="1000"
         WindowStyle="none"
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
@@ -43,13 +43,13 @@
                     <StackPanel Grid.Row="0" Orientation="Horizontal">
                         <DockPanel>
                             <Image Height="40" VerticalAlignment="Top" Margin="10,15,0,0" Source="/View/Usuarios/MainUsuarios/Icon.png" Cursor="Hand" MouseDown="IrInicio_MouseDown"/>
-                            <Label Content="OFFICIUM" FontSize="27" Margin="5,10,40,0" FontWeight="Bold" MouseDown="IrInicio_MouseDown" Cursor="Hand"/>
+                            <Label Content="OFFICIUM" FontSize="27" Margin="5,10,25,0" FontWeight="Bold" MouseDown="IrInicio_MouseDown" Cursor="Hand"/>
                         </DockPanel>
                         <Button Content="Admins" Style="{StaticResource BarSide}" Click="Admins_Click"/>
-                        <Button Content="Ofertas" Style="{StaticResource BarSide}"/>
+                        <Button Content="Ofertas" Style="{StaticResource BarSide}" Click="Ofertas_Click"/>
                         <Button Content="Publicaciones" Width="150" Style="{StaticResource BarSide}" Click="Publicaciones_Click"/>
-                        <Button Content="Perfiles" Width="120" Style="{StaticResource BarSide}" Click="Perfiles_Click"/>
-                        <StackPanel VerticalAlignment="Center" Margin="20,0">
+                        <Button Content="Perfiles" Width="120" Style="{StaticResource BarSide}"/>
+                        <StackPanel VerticalAlignment="Center" Margin="15,0">
                             <TextBlock x:Name="txtUsuarioSession" HorizontalAlignment="Center" Text="Username" Foreground="#9CA3AF" FontSize="18"/>
                             <TextBlock x:Name="txtUsuarioRol" HorizontalAlignment="Center" FontSize="10" Text="Administrador" Foreground="#9CA3AF"/>
                         </StackPanel>
@@ -62,7 +62,7 @@
                         </Grid.RowDefinitions>
 
                         <Canvas Grid.Row="0">
-                            <Label Content="Reportes ofertas" Canvas.Left="0" FontSize="42" FontWeight="Bold" Foreground="#FF06080D"/>
+                            <Label Content="Reportes perfiles" Canvas.Left="0" FontSize="42" FontWeight="Bold" Foreground="#FF06080D"/>
                             <StackPanel Canvas.Right="0" Canvas.Top="18" Orientation="Horizontal">
                                 <Image x:Name="imgToggleButton" Source="/View/Usuarios/MainUsuarios/imgDataGrid.png" Width="20" Margin="10,0"/>
                                 <ToggleButton x:Name="btnToggleButtonCambiarLista"
@@ -98,12 +98,13 @@
                                 </Style>
                             </DataGrid.RowStyle>
                             <DataGrid.Columns>
-                                <DataGridTextColumn Header="ID" Width="90" Binding="{Binding IDReporte}"/>
-                                <DataGridTextColumn Header="Entidad" Width="110" Binding="{Binding IDEntidad}"/>
-                                <DataGridTextColumn Header="Titulo" Width="140" Binding="{Binding TituloEntidad}"/>
-                                <DataGridTextColumn Header="Motivo" Width="150" Binding="{Binding Motivo}"/>
-                                <DataGridTextColumn Header="Estado" Width="100" Binding="{Binding Estado}"/>
-                                <DataGridTextColumn Header="Fecha" Width="120" Binding="{Binding FechaCreacion}"/>
+                                <DataGridTextColumn Header="ID" Width="80" Binding="{Binding IDReporte}"/>
+                                <DataGridTextColumn Header="Perfil" Width="90" Binding="{Binding IDEntidad}"/>
+                                <DataGridTextColumn Header="Nombre" Width="155" Binding="{Binding PerfilNombre}"/>
+                                <DataGridTextColumn Header="Rol" Width="85" Binding="{Binding PerfilRol}"/>
+                                <DataGridTextColumn Header="Motivo" Width="145" Binding="{Binding Motivo}"/>
+                                <DataGridTextColumn Header="Estado" Width="90" Binding="{Binding Estado}"/>
+                                <DataGridTextColumn Header="Fecha" Width="110" Binding="{Binding FechaCreacion}"/>
                                 <DataGridTemplateColumn Header="Acciones" Width="130">
                                     <DataGridTemplateColumn.CellTemplate>
                                         <DataTemplate>
@@ -122,30 +123,14 @@
                         <ListView x:Name="ListViewReportes" Visibility="Collapsed" Grid.Row="1" Height="405"
                                   Background="White" BorderBrush="Transparent" BorderThickness="0"
                                   ItemsSource="{Binding Reportes}" SelectedItem="{Binding ReporteSeleccionado, Mode=TwoWay}">
-                            <ListView.ItemContainerStyle>
-                                <Style TargetType="ListViewItem">
-                                    <Setter Property="Height" Value="50"/>
-                                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
-                                    <Setter Property="Margin" Value="1"/>
-                                    <Style.Triggers>
-                                        <Trigger Property="IsMouseOver" Value="True">
-                                            <Setter Property="Background" Value="#D9D9D9"/>
-                                        </Trigger>
-                                        <Trigger Property="IsSelected" Value="True">
-                                            <Setter Property="Background" Value="#D9D9D9"/>
-                                            <Setter Property="BorderBrush" Value="#9CA3AF"/>
-                                        </Trigger>
-                                    </Style.Triggers>
-                                </Style>
-                            </ListView.ItemContainerStyle>
                             <ListView.View>
                                 <GridView>
-                                    <GridViewColumn Header="ID" Width="90" DisplayMemberBinding="{Binding IDReporte}"/>
-                                    <GridViewColumn Header="Entidad" Width="110" DisplayMemberBinding="{Binding IDEntidad}"/>
-                                    <GridViewColumn Header="Titulo" Width="150" DisplayMemberBinding="{Binding TituloEntidad}"/>
-                                    <GridViewColumn Header="Motivo" Width="160" DisplayMemberBinding="{Binding Motivo}"/>
-                                    <GridViewColumn Header="Estado" Width="100" DisplayMemberBinding="{Binding Estado}"/>
-                                    <GridViewColumn Header="Fecha" Width="120" DisplayMemberBinding="{Binding FechaCreacion}"/>
+                                    <GridViewColumn Header="ID" Width="80" DisplayMemberBinding="{Binding IDReporte}"/>
+                                    <GridViewColumn Header="Perfil" Width="90" DisplayMemberBinding="{Binding IDEntidad}"/>
+                                    <GridViewColumn Header="Nombre" Width="170" DisplayMemberBinding="{Binding PerfilNombre}"/>
+                                    <GridViewColumn Header="Rol" Width="90" DisplayMemberBinding="{Binding PerfilRol}"/>
+                                    <GridViewColumn Header="Motivo" Width="155" DisplayMemberBinding="{Binding Motivo}"/>
+                                    <GridViewColumn Header="Estado" Width="90" DisplayMemberBinding="{Binding Estado}"/>
                                     <GridViewColumn Header="Acciones" Width="135">
                                         <GridViewColumn.CellTemplate>
                                             <DataTemplate>

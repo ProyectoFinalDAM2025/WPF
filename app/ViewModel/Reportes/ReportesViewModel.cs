@@ -11,6 +11,7 @@ using System.Windows.Input;
 using app.Models.ApiRouteUsuario;
 using app.Models.Reportes;
 using app.View.Reportes.ReportesOfertas;
+using app.View.Reportes.ReportesPerfiles;
 using app.View.Reportes.ReportesPublicaciones;
 using app.View.Usuarios.Notificaciones;
 using IntermodularWPF;
@@ -91,7 +92,19 @@ namespace app.ViewModel.Reportes
                         JToken user = Child(entidad, "user");
                         JToken autorEmpresa = Child(user, "empresa");
                         JToken autorDesempleado = Child(user, "desempleado");
+                        JToken perfilEmpresa = Child(entidad, "empresa");
+                        JToken perfilDesempleado = Child(entidad, "desempleado");
+                        JToken perfilSector = Child(perfilEmpresa, "sector");
                         JToken documento = PrimerDocumento(entidad);
+                        string perfilNombreEmpresa = Valor(perfilEmpresa, "NombreEmpresa", "nombreEmpresa");
+                        string perfilNombre = Valor(perfilDesempleado, "Nombre", "nombre");
+                        string perfilApellido = Valor(perfilDesempleado, "Apellido", "apellido");
+                        string perfilNombreCompleto = !string.IsNullOrWhiteSpace(perfilNombreEmpresa)
+                            ? perfilNombreEmpresa
+                            : $"{perfilNombre} {perfilApellido}".Trim();
+                        string perfilFoto = !string.IsNullOrWhiteSpace(Valor(perfilEmpresa, "Foto", "foto"))
+                            ? Valor(perfilEmpresa, "Foto", "foto")
+                            : Valor(perfilDesempleado, "Foto", "foto");
 
                         string publicacionArchivo = Valor(entidad, "Archivo", "archivo");
                         string publicacionThumbnail = Valor(entidad, "Thumbnail", "thumbnail");
@@ -141,7 +154,23 @@ namespace app.ViewModel.Reportes
                                 !string.IsNullOrWhiteSpace(Valor(autorEmpresa, "Foto", "foto"))
                                     ? Valor(autorEmpresa, "Foto", "foto")
                                     : Valor(autorDesempleado, "Foto", "foto"),
-                                "/View/Home/Logo.png")
+                                "/View/Home/Logo.png"),
+                            PerfilNombre = !string.IsNullOrWhiteSpace(perfilNombreCompleto)
+                                ? perfilNombreCompleto
+                                : Valor(entidad, "email", "Email"),
+                            PerfilEmail = Valor(entidad, "email", "Email"),
+                            PerfilRol = Valor(entidad, "rol", "Rol"),
+                            PerfilFoto = NormalizarRutaArchivo(perfilFoto, "/View/Home/Logo.png"),
+                            PerfilUbicacion = !string.IsNullOrWhiteSpace(Valor(perfilEmpresa, "Ubicacion", "ubicacion"))
+                                ? Valor(perfilEmpresa, "Ubicacion", "ubicacion")
+                                : Valor(perfilDesempleado, "Ubicacion", "ubicacion"),
+                            PerfilSitioWeb = Valor(perfilEmpresa, "SitioWeb", "sitioWeb"),
+                            PerfilSector = Valor(perfilSector, "Nombre", "nombre"),
+                            PerfilDocumento = !string.IsNullOrWhiteSpace(Valor(perfilEmpresa, "CIF", "cif"))
+                                ? Valor(perfilEmpresa, "CIF", "cif")
+                                : Valor(perfilDesempleado, "DNI", "dni"),
+                            PerfilDisponibilidad = Valor(perfilDesempleado, "Disponibilidad", "disponibilidad"),
+                            PerfilPortafolio = Valor(perfilDesempleado, "Porfolios", "porfolios")
                         });
                     }
 
@@ -257,7 +286,9 @@ namespace app.ViewModel.Reportes
 
             return solicitado == "Oferta"
                 ? reporte == "Ofertas"
-                : reporte == "Publicaciones";
+                : solicitado == "Publicacion"
+                    ? reporte == "Publicaciones"
+                    : reporte == "Usuarios" || reporte == "Perfil" || reporte == "Perfiles";
         }
 
         private static string NormalizarTipo(string tipo)
@@ -322,6 +353,16 @@ namespace app.ViewModel.Reportes
                 bool? resultado = detalle.ShowDialog();
                 if (resultado == true)
                     await EjecutarAccionDetalle(detalle.AccionSolicitada, reporte);
+                return;
+            }
+
+            if (EsTipoSolicitado(reporte.TipoEntidad, "Usuario"))
+            {
+                ReportePerfilDetalle detalle = new ReportePerfilDetalle(reporte);
+                detalle.Owner = Application.Current.Windows.OfType<Window>().FirstOrDefault(w => w.IsActive);
+                bool? resultado = detalle.ShowDialog();
+                if (resultado == true)
+                    await EjecutarAccionDetalle(detalle.AccionSolicitada, reporte);
             }
         }
 
@@ -335,6 +376,9 @@ namespace app.ViewModel.Reportes
 
             if (accion == "Moderar")
                 await ConfirmarModerarReporte(reporte);
+
+            if (accion == "EliminarPerfil")
+                await ConfirmarEliminarPerfil(reporte);
         }
 
         private async Task ConfirmarModerarReporte(Reporte reporte)
@@ -459,6 +503,68 @@ namespace app.ViewModel.Reportes
                 catch (Exception ex)
                 {
                     Debug.WriteLine("Error moderando reporte: " + ex.Message);
+                    return $"{SettingsData.Default._503}\nDetalle: {ex.Message}";
+                }
+            }
+        }
+
+        private async Task ConfirmarEliminarPerfil(Reporte reporte)
+        {
+            MessageBoxResult confirmacion = MessageBox.Show(
+                "Se eliminara el perfil reportado por administracion y se limpiaran sus reportes. Esta accion no se puede deshacer. Deseas continuar?",
+                "Eliminar perfil",
+                MessageBoxButton.YesNo,
+                MessageBoxImage.Warning);
+
+            if (confirmacion != MessageBoxResult.Yes)
+                return;
+
+            string resultado = await EliminarEntidadReporte(reporte.IDReporte);
+
+            if (resultado == SettingsData.Default._200)
+            {
+                MessageBox.Show("Perfil eliminado correctamente.", "Reportes", MessageBoxButton.OK, MessageBoxImage.Information);
+                await CargarReportesPorTipo(_tipoEntidadActual);
+                ReporteSeleccionado = null;
+                return;
+            }
+
+            if (resultado == SettingsData.Default._419)
+            {
+                MostrarError("Session Terminada", "Por favor inicie session.");
+                return;
+            }
+
+            MostrarError("Error", resultado);
+        }
+
+        private async Task<string> EliminarEntidadReporte(string idReporte)
+        {
+            using (var client = new HttpClient())
+            {
+                try
+                {
+                    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", SettingsData.Default.token);
+                    client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                    HttpResponseMessage response = await client.DeleteAsync($"{ApiRouteUsuarios.Reporte.EliminarEntidad}/{idReporte}/entidad");
+                    string json = await response.Content.ReadAsStringAsync();
+
+                    if (response.StatusCode == HttpStatusCode.Unauthorized ||
+                        response.StatusCode == HttpStatusCode.Forbidden)
+                    {
+                        ClearSettings();
+                        return SettingsData.Default._419;
+                    }
+
+                    if (response.IsSuccessStatusCode)
+                        return SettingsData.Default._200;
+
+                    return ObtenerMensajeError(json, response.ReasonPhrase);
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine("Error eliminando entidad reportada: " + ex.Message);
                     return $"{SettingsData.Default._503}\nDetalle: {ex.Message}";
                 }
             }

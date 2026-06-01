@@ -8,13 +8,13 @@ using app.View.Usuarios.MainUsuarios;
 using app.ViewModel.Reportes;
 using IntermodularWPF;
 
-namespace app.View.Reportes.ReportesPublicaciones
+namespace app.View.Reportes.ReportesPerfiles
 {
-    public partial class ReportesPublicaciones : Window
+    public partial class ReportesPerfiles : Window
     {
         private readonly ReportesViewModel _viewModel;
 
-        public ReportesPublicaciones()
+        public ReportesPerfiles()
         {
             InitializeComponent();
             _viewModel = new ReportesViewModel();
@@ -25,7 +25,7 @@ namespace app.View.Reportes.ReportesPublicaciones
 
         private async void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            string resultado = await _viewModel.CargarReportesPorTipo("Publicacion");
+            string resultado = await _viewModel.CargarReportesPorTipo("Usuario");
             if (resultado == SettingsData.Default._200)
                 return;
 
@@ -78,10 +78,10 @@ namespace app.View.Reportes.ReportesPublicaciones
             Close();
         }
 
-        private void Perfiles_Click(object sender, RoutedEventArgs e)
+        private void Publicaciones_Click(object sender, RoutedEventArgs e)
         {
-            app.View.Reportes.ReportesPerfiles.ReportesPerfiles perfiles = new app.View.Reportes.ReportesPerfiles.ReportesPerfiles();
-            perfiles.Show();
+            app.View.Reportes.ReportesPublicaciones.ReportesPublicaciones publicaciones = new app.View.Reportes.ReportesPublicaciones.ReportesPublicaciones();
+            publicaciones.Show();
             Close();
         }
     }

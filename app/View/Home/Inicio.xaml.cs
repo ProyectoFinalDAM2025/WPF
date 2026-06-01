@@ -16,6 +16,7 @@ using app.View.Usuarios.MainUsuarios;
 using app.ViewModel.Usuarios;
 using IntermodularWPF;
 using app.View.Reportes.ReportesOfertas;
+using app.View.Reportes.ReportesPerfiles;
 using app.View.Reportes.ReportesPublicaciones;
 
 namespace app.View.Home
@@ -61,6 +62,13 @@ namespace app.View.Home
         {
             ReportesPublicaciones reportesPublicaciones = new ReportesPublicaciones();
             reportesPublicaciones.Show();
+            this.Close();
+        }
+
+        private void btnReportesPerfiles_Click(object sender, RoutedEventArgs e)
+        {
+            ReportesPerfiles reportesPerfiles = new ReportesPerfiles();
+            reportesPerfiles.Show();
             this.Close();
         }
 

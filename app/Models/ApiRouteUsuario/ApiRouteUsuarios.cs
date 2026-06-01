@@ -37,6 +37,7 @@ namespace app.Models.ApiRouteUsuario
             public static readonly string GetAll = $"{BaseUrl}/reportes";
             public static readonly string Eliminar = $"{BaseUrl}/reportes";
             public static readonly string Moderar = $"{BaseUrl}/reportes";
+            public static readonly string EliminarEntidad = $"{BaseUrl}/reportes";
         }
     }
 }

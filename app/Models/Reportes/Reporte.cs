@@ -32,5 +32,15 @@ namespace app.Models.Reportes
         public string PublicacionAutor { get; set; }
         public string PublicacionAutorEmail { get; set; }
         public string PublicacionAutorFoto { get; set; }
+        public string PerfilNombre { get; set; }
+        public string PerfilEmail { get; set; }
+        public string PerfilRol { get; set; }
+        public string PerfilFoto { get; set; }
+        public string PerfilUbicacion { get; set; }
+        public string PerfilSitioWeb { get; set; }
+        public string PerfilSector { get; set; }
+        public string PerfilDocumento { get; set; }
+        public string PerfilDisponibilidad { get; set; }
+        public string PerfilPortafolio { get; set; }
     }
 }

@@ -80,11 +80,13 @@
                                 <ColumnDefinition/>
                                 <ColumnDefinition/>
                                 <ColumnDefinition/>
+                                <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
                           
                             <Button Template="{DynamicResource BtnsInicio}" x:Name="btnUsuarios" Grid.Column="0" Content="Admins" Foreground="White" Style="{StaticResource BarSide}" Click="btnUsuarios_Click"/>
-                            <Button Template="{DynamicResource BtnsInicio}" x:Name="btnReportesOfertas" Grid.Column="1" Content="Reportes ofertas" Foreground="White" Style="{StaticResource BarSide}" Width="190" Click="btnReportesOfertas_Click"/>
-                            <Button Template="{DynamicResource BtnsInicio}" x:Name="btnReportesPublicaciones" Grid.Column="2" Content="Reportes publicaciones" Foreground="White" Style="{StaticResource BarSide}" Width="230" Click="btnReportesPublicaciones_Click"/>
+                            <Button Template="{DynamicResource BtnsInicio}" x:Name="btnReportesOfertas" Grid.Column="1" Content="Reportes ofertas" Foreground="White" Style="{StaticResource BarSide}" Width="170" Click="btnReportesOfertas_Click"/>
+                            <Button Template="{DynamicResource BtnsInicio}" x:Name="btnReportesPublicaciones" Grid.Column="2" Content="Reportes publicaciones" Foreground="White" Style="{StaticResource BarSide}" Width="210" Click="btnReportesPublicaciones_Click"/>
+                            <Button Template="{DynamicResource BtnsInicio}" x:Name="btnReportesPerfiles" Grid.Column="3" Content="Reportes perfiles" Foreground="White" Style="{StaticResource BarSide}" Width="180" Click="btnReportesPerfiles_Click"/>
                         </Grid>
                     </Border>
                 </Grid>

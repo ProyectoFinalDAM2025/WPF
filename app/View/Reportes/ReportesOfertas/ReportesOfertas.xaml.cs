@@ -77,5 +77,12 @@ namespace app.View.Reportes.ReportesOfertas
             publicaciones.Show();
             Close();
         }
+
+        private void Perfiles_Click(object sender, RoutedEventArgs e)
+        {
+            app.View.Reportes.ReportesPerfiles.ReportesPerfiles perfiles = new app.View.Reportes.ReportesPerfiles.ReportesPerfiles();
+            perfiles.Show();
+            Close();
+        }
     }
 }

@@ -178,6 +178,12 @@
     <Compile Include="View\Reportes\ReportesOfertas\ReporteOfertaDetalle.xaml.cs">
       <DependentUpon>ReporteOfertaDetalle.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Reportes\ReportesPerfiles\ReportesPerfiles.xaml.cs">
+      <DependentUpon>ReportesPerfiles.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Reportes\ReportesPerfiles\ReportePerfilDetalle.xaml.cs">
+      <DependentUpon>ReportePerfilDetalle.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Reportes\ReportesPublicaciones\ReportesPublicaciones.xaml.cs">
       <DependentUpon>ReportesPublicaciones.xaml</DependentUpon>
     </Compile>
@@ -242,6 +248,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Reportes\ReportesOfertas\ReporteOfertaDetalle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Reportes\ReportesPerfiles\ReportesPerfiles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Reportes\ReportesPerfiles\ReportePerfilDetalle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
