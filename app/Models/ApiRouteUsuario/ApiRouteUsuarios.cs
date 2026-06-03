@@ -8,7 +8,26 @@ namespace app.Models.ApiRouteUsuario
 {
     public static class ApiRouteUsuarios
     {
-        private static readonly string BaseUrl = "http://127.0.0.1:8000/api";
+        private static readonly string BaseUrl = "https://api.officium.es/api";
+        public static readonly string PublicBaseUrl = "https://api.officium.es";
+
+        public static string ResolvePublicFileUrl(string ruta, string fallback = "")
+        {
+            if (string.IsNullOrWhiteSpace(ruta))
+                return fallback;
+
+            if (ruta.StartsWith("http://", StringComparison.OrdinalIgnoreCase) ||
+                ruta.StartsWith("https://", StringComparison.OrdinalIgnoreCase))
+                return ruta;
+
+            ruta = ruta.TrimStart('/', '\\').Replace("\\", "/");
+
+            if (ruta.StartsWith("storage/", StringComparison.OrdinalIgnoreCase) ||
+                ruta.StartsWith("assets/", StringComparison.OrdinalIgnoreCase))
+                return $"{PublicBaseUrl}/{ruta}";
+
+            return $"{PublicBaseUrl}/storage/{ruta}";
+        }
 
         public static class Administrador
         {

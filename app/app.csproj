@@ -349,6 +349,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Certificates\officium_selfsigned.crt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="View\Usuarios\MainUsuarios\logout_icon_184325.png" />
   </ItemGroup>
   <ItemGroup>

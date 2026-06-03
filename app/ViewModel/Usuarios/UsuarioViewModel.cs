@@ -149,8 +149,10 @@ namespace app.ViewModel.Usuarios
                 }
 
                 string rol = data["rol"]?.ToString() ?? "";
+                bool esAdministrador = string.Equals(rol, "Administrador", StringComparison.OrdinalIgnoreCase)
+                    || string.Equals(rol, "admin", StringComparison.OrdinalIgnoreCase);
 
-                if (rol != "Administrador")
+                if (!esAdministrador)
                 {
                     LogInError = "Solo los administradores pueden acceder a esta aplicación.";
                     ShowNotification(new
@@ -164,6 +166,7 @@ namespace app.ViewModel.Usuarios
                 if (data["token"] != null)
                 {
                     string token = data["token"].ToString();
+                    rol = "Administrador";
                     JToken profileToken = data["profile"];
                     bool tienePerfil = profileToken != null && profileToken.Type != Newtonsoft.Json.Linq.JTokenType.Null;
 
@@ -366,7 +369,7 @@ namespace app.ViewModel.Usuarios
                                     rol = !string.IsNullOrEmpty(rol) ? rol : "Administrador",
                                     registro = activo,
                                     baja = activo == "Activo" ? "false" : "true",
-                                    rutaFoto = !string.IsNullOrEmpty(fotoPerfil) ? $"http://127.0.0.1:8000/storage/{fotoPerfil}" : "",
+                                    rutaFoto = ApiRouteUsuarios.ResolvePublicFileUrl(fotoPerfil),
                                     _nivelDeAcceso = email,
                                     _responsableDeArea = activo
                                 });

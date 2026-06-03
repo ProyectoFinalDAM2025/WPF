@@ -238,27 +238,7 @@ namespace app.ViewModel.Reportes
 
         private static string NormalizarRutaArchivo(string ruta, string fallback)
         {
-            if (string.IsNullOrWhiteSpace(ruta))
-                return fallback;
-
-            if (ruta.StartsWith("http://", StringComparison.OrdinalIgnoreCase) ||
-                ruta.StartsWith("https://", StringComparison.OrdinalIgnoreCase))
-                return ruta;
-
-            ruta = ruta.TrimStart('/');
-
-            if (ruta.StartsWith("storage/", StringComparison.OrdinalIgnoreCase) ||
-                ruta.StartsWith("assets/", StringComparison.OrdinalIgnoreCase))
-                return $"http://127.0.0.1:8000/{ruta}";
-
-            if (ruta.StartsWith("storage\\", StringComparison.OrdinalIgnoreCase) ||
-                ruta.StartsWith("assets\\", StringComparison.OrdinalIgnoreCase))
-            {
-                ruta = ruta.Replace("\\", "/");
-                return $"http://127.0.0.1:8000/{ruta}";
-            }
-
-            return $"http://127.0.0.1:8000/storage/{ruta}";
+            return ApiRouteUsuarios.ResolvePublicFileUrl(ruta, fallback);
         }
 
         private static string ObtenerAutorPublicacion(JToken empresa, JToken desempleado, JToken user)

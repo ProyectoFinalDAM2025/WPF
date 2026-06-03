@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|c:\\users\\srleo\\documents\\github\\proyectofinaldam2025\\wpf\\app\\viewmodel\\reportes\\reportesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\viewmodel\\reportes\\reportesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\models\\reportes\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\models\\reportes\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\models\\iusuariosrepository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\models\\iusuariosrepository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\models\\apirouteusuario\\apirouteusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\models\\apirouteusuario\\apirouteusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|c:\\users\\srleo\\documents\\github\\proyectofinaldam2025\\wpf\\app\\viewmodel\\reportes\\reportesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\viewmodel\\reportes\\reportesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\viewmodel\\usuarios\\usuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\viewmodel\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\viewmodel\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\models\\iusuariosrepository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|solutionrelative:app\\models\\iusuariosrepository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{078A7339-6118-4A34-924C-6DD845134F4E}|app\\app.csproj|C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\models\\usuarios\\usuariobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,72 +78,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReportesViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\Reportes\\ReportesViewModel.cs",
-              "RelativeDocumentMoniker": "app\\ViewModel\\Reportes\\ReportesViewModel.cs",
-              "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\Reportes\\ReportesViewModel.cs",
-              "RelativeToolTip": "app\\ViewModel\\Reportes\\ReportesViewModel.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAAAM8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T17:48:55.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Reporte.cs",
-              "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\Reportes\\Reporte.cs",
-              "RelativeDocumentMoniker": "app\\Models\\Reportes\\Reporte.cs",
-              "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\Reportes\\Reporte.cs",
-              "RelativeToolTip": "app\\Models\\Reportes\\Reporte.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T17:35:31.831Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsuarioViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\Usuarios\\UsuarioViewModel.cs",
-              "RelativeDocumentMoniker": "app\\ViewModel\\Usuarios\\UsuarioViewModel.cs",
-              "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\Usuarios\\UsuarioViewModel.cs",
-              "RelativeToolTip": "app\\ViewModel\\Usuarios\\UsuarioViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T15:06:51.354Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ViewModelCommand.cs",
-              "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\ViewModelCommand.cs",
-              "RelativeDocumentMoniker": "app\\ViewModel\\ViewModelCommand.cs",
-              "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\ViewModelCommand.cs",
-              "RelativeToolTip": "app\\ViewModel\\ViewModelCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T15:06:36.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RepositoryUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\Repositories\\RepositoryUsuarios\\RepositoryUsuario.cs",
-              "RelativeDocumentMoniker": "app\\ViewModel\\Repositories\\RepositoryUsuarios\\RepositoryUsuario.cs",
-              "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\Repositories\\RepositoryUsuarios\\RepositoryUsuario.cs",
-              "RelativeToolTip": "app\\ViewModel\\Repositories\\RepositoryUsuarios\\RepositoryUsuario.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAjwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T15:06:01.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "RepositoryBase.cs",
               "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\Repositories\\RepositoryBase.cs",
               "RelativeDocumentMoniker": "app\\ViewModel\\Repositories\\RepositoryBase.cs",
@@ -167,6 +106,94 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiRouteUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\ApiRouteUsuario\\ApiRouteUsuarios.cs",
+              "RelativeDocumentMoniker": "app\\Models\\ApiRouteUsuario\\ApiRouteUsuarios.cs",
+              "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\ApiRouteUsuario\\ApiRouteUsuarios.cs",
+              "RelativeToolTip": "app\\Models\\ApiRouteUsuario\\ApiRouteUsuarios.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T14:59:54.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReportesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\Reportes\\ReportesViewModel.cs",
+              "RelativeDocumentMoniker": "app\\ViewModel\\Reportes\\ReportesViewModel.cs",
+              "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\Reportes\\ReportesViewModel.cs",
+              "RelativeToolTip": "app\\ViewModel\\Reportes\\ReportesViewModel.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAM8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T17:48:55.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\IUsuariosRepository\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "app\\Models\\IUsuariosRepository\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\IUsuariosRepository\\IUsuarioRepository.cs",
+              "RelativeToolTip": "app\\Models\\IUsuariosRepository\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T15:00:16.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Reporte.cs",
+              "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\Reportes\\Reporte.cs",
+              "RelativeDocumentMoniker": "app\\Models\\Reportes\\Reporte.cs",
+              "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\Reportes\\Reporte.cs",
+              "RelativeToolTip": "app\\Models\\Reportes\\Reporte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T17:35:31.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RepositoryUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\Repositories\\RepositoryUsuarios\\RepositoryUsuario.cs",
+              "RelativeDocumentMoniker": "app\\ViewModel\\Repositories\\RepositoryUsuarios\\RepositoryUsuario.cs",
+              "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\Repositories\\RepositoryUsuarios\\RepositoryUsuario.cs",
+              "RelativeToolTip": "app\\ViewModel\\Repositories\\RepositoryUsuarios\\RepositoryUsuario.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAjwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T15:06:01.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ViewModelCommand.cs",
+              "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\ViewModelCommand.cs",
+              "RelativeDocumentMoniker": "app\\ViewModel\\ViewModelCommand.cs",
+              "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\ViewModelCommand.cs",
+              "RelativeToolTip": "app\\ViewModel\\ViewModelCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T15:06:36.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\Usuarios\\UsuarioViewModel.cs",
+              "RelativeDocumentMoniker": "app\\ViewModel\\Usuarios\\UsuarioViewModel.cs",
+              "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\Usuarios\\UsuarioViewModel.cs",
+              "RelativeToolTip": "app\\ViewModel\\Usuarios\\UsuarioViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T15:06:51.354Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\Usuarios\\Usuario.cs",
@@ -179,19 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApiRouteUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\ApiRouteUsuario\\ApiRouteUsuarios.cs",
-              "RelativeDocumentMoniker": "app\\Models\\ApiRouteUsuario\\ApiRouteUsuarios.cs",
-              "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\ApiRouteUsuario\\ApiRouteUsuarios.cs",
-              "RelativeToolTip": "app\\Models\\ApiRouteUsuario\\ApiRouteUsuarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T14:59:54.585Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ViewModelBase.cs",
               "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\ViewModel\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "app\\ViewModel\\ViewModelBase.cs",
@@ -200,18 +215,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-30T15:06:44.517Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\IUsuariosRepository\\IUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "app\\Models\\IUsuariosRepository\\IUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\srleo\\Documents\\GitHub\\ProyectoFinalDAM2025\\WPF\\app\\Models\\IUsuariosRepository\\IUsuarioRepository.cs",
-              "RelativeToolTip": "app\\Models\\IUsuariosRepository\\IUsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T15:00:16.296Z"
             },
             {
               "$type": "Document",
