@@ -150,7 +150,13 @@ app/Models/ApiRouteUsuario/ApiRouteUsuarios.cs
 URL base actual:
 
 ```text
-http://127.0.0.1:8000/api
+https://api.officium.es/api
+```
+
+URL publica para archivos:
+
+```text
+https://api.officium.es
 ```
 
 ### Endpoints de sesion y usuarios
@@ -248,7 +254,7 @@ Requisitos:
 - Visual Studio 2022 o compatible
 - .NET Framework 4.7.2 Developer Pack
 - Paquetes NuGet restaurados
-- Backend disponible en `http://127.0.0.1:8000/api`
+- Backend disponible en `https://api.officium.es/api`
 
 Compilar desde Visual Studio:
 
@@ -278,13 +284,15 @@ Si cambia la URL del backend, actualizar `BaseUrl` en:
 app/Models/ApiRouteUsuario/ApiRouteUsuarios.cs
 ```
 
+Si cambia el dominio publico de archivos, actualizar `PublicBaseUrl` en el mismo archivo.
+
 ## Notas de desarrollo
 
 - Las respuestas JSON y HTML de error se normalizan para mostrarse en la ventana `Notificacion`.
 - La edicion de administrador usa `MultipartFormDataContent` para permitir envio de imagen.
 - Los listados de administradores transforman la respuesta del backend a objetos `Administrador`, derivados de `UsuarioBase`.
 - El modulo de reportes usa `JObject`/`JArray` para mapear respuestas de distintas entidades en un unico modelo `Reporte`.
-- Las rutas de archivos se normalizan para resolver URLs relativas de `storage` contra `http://127.0.0.1:8000`.
+- Las rutas de archivos se normalizan con `ApiRouteUsuarios.ResolvePublicFileUrl`, resolviendo rutas relativas de `storage` o `assets` contra `https://api.officium.es`.
 - La vista de detalle de publicaciones detiene el reproductor de video al cerrar la ventana.
 - El proyecto conserva codigo comentado y mensajes temporales de depuracion que pueden limpiarse en fases futuras.
 
