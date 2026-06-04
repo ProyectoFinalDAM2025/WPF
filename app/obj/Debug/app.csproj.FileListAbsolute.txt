@@ -90,3 +90,5 @@ C:\Users\srleo\Documents\GitHub\ProyectoFinalDAM2025\WPF\app\obj\Debug\View\Repo
 C:\Users\srleo\Documents\GitHub\ProyectoFinalDAM2025\WPF\app\obj\Debug\View\Reportes\ReportesPerfiles\ReportesPerfiles.g.cs
 C:\Users\srleo\Documents\GitHub\ProyectoFinalDAM2025\WPF\app\obj\Debug\View\Reportes\ReportesPerfiles\ReportePerfilDetalle.g.cs
 C:\Users\srleo\Documents\GitHub\ProyectoFinalDAM2025\WPF\tmp_build\Certificates\officium_selfsigned.crt
+C:\Users\srleo\Documents\GitHub\ProyectoFinalDAM2025\WPF\app\bin\Debug\Certificates\officium_selfsigned.crt
+C:\Users\srleo\Documents\GitHub\ProyectoFinalDAM2025\WPF\app\obj\Debug\app_Content.g.cs

@@ -9,6 +9,7 @@ namespace app.View.Reportes.ReportesPublicaciones
     public partial class ReportePublicacionDetalle : Window
     {
         private readonly Reporte _reporte;
+        private bool _videoConfigurado;
         public string AccionSolicitada { get; private set; }
 
         public ReportePublicacionDetalle(Reporte reporte)
@@ -25,6 +26,7 @@ namespace app.View.Reportes.ReportesPublicaciones
 
         private void ConfigurarDocumento()
         {
+            _videoConfigurado = false;
             imgDocumento.Visibility = Visibility.Collapsed;
             panelVideo.Visibility = Visibility.Collapsed;
             pdfViewer.Visibility = Visibility.Collapsed;
@@ -53,14 +55,15 @@ namespace app.View.Reportes.ReportesPublicaciones
             if (tipo.Equals("Video", StringComparison.OrdinalIgnoreCase))
             {
                 mediaVideo.Source = new Uri(_reporte.PublicacionArchivo, UriKind.RelativeOrAbsolute);
+                _videoConfigurado = true;
                 panelVideo.Visibility = Visibility.Visible;
                 return;
             }
 
             if (tipo.Equals("PDF", StringComparison.OrdinalIgnoreCase))
             {
-                pdfViewer.Visibility = Visibility.Visible;
-                pdfViewer.Navigate(_reporte.PublicacionArchivo);
+                txtSinDocumento.Text = "PDF disponible. Usa el boton Abrir para verlo.";
+                txtSinDocumento.Visibility = Visibility.Visible;
                 return;
             }
 
@@ -72,12 +75,24 @@ namespace app.View.Reportes.ReportesPublicaciones
             if (string.IsNullOrWhiteSpace(_reporte.PublicacionArchivo))
                 return;
 
-            Process.Start(new ProcessStartInfo(_reporte.PublicacionArchivo) { UseShellExecute = true });
+            try
+            {
+                Process.Start(new ProcessStartInfo(_reporte.PublicacionArchivo) { UseShellExecute = true });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(
+                    "No se pudo abrir el documento.\nDetalle: " + ex.Message,
+                    "Documento",
+                    MessageBoxButton.OK,
+                    MessageBoxImage.Warning);
+            }
         }
 
         private void Moderar_Click(object sender, RoutedEventArgs e)
         {
             AccionSolicitada = "Moderar";
+            LiberarVideo();
             DialogResult = true;
             Close();
         }
@@ -85,29 +100,54 @@ namespace app.View.Reportes.ReportesPublicaciones
         private void EliminarReporte_Click(object sender, RoutedEventArgs e)
         {
             AccionSolicitada = "Eliminar";
+            LiberarVideo();
             DialogResult = true;
             Close();
         }
 
         private void Reproducir_Click(object sender, RoutedEventArgs e)
         {
+            if (!_videoConfigurado || mediaVideo == null || mediaVideo.Source == null)
+                return;
+
             mediaVideo.Play();
         }
 
         private void Pausar_Click(object sender, RoutedEventArgs e)
         {
+            if (!_videoConfigurado || mediaVideo == null || mediaVideo.Source == null)
+                return;
+
             mediaVideo.Pause();
         }
 
         private void Cerrar_Click(object sender, RoutedEventArgs e)
         {
+            LiberarVideo();
             Close();
         }
 
-        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        private void LiberarVideo()
         {
-            mediaVideo.Stop();
-            mediaVideo.Source = null;
+            if (!_videoConfigurado)
+                return;
+
+            try
+            {
+                if (mediaVideo != null)
+                {
+                    mediaVideo.Pause();
+                    mediaVideo.Source = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine("Error liberando video del reporte: " + ex.Message);
+            }
+            finally
+            {
+                _videoConfigurado = false;
+            }
         }
     }
 }
